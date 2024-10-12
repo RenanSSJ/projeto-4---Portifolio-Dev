@@ -1,0 +1,33 @@
+
+#introduction {
+    display: grid;
+    justify-content: center;
+    height: 750px;
+    background: url(../assets/Background_Intro.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; 
+    ul {
+        list-style: none;
+    }
+}
+
+
+#projects {
+    height: 917px;
+    background-color: brown;
+}
+
+#services {
+    height: 480px;
+    background-color: blue;
+}
+
+#contact {
+    height: 787px;
+    background-color: blueviolet;
+    background: url(../assets/Background_Contacts.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}

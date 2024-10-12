@@ -1,0 +1,15 @@
+
+.card {
+    display: inline-block;
+
+    div {
+        display: flex;
+        align-items: center;
+        
+    }
+ }
+
+ 
+
+
+
