@@ -1,12 +1,17 @@
-
 .grid {
     display: grid;
 }
 
-.grid-flow-col{
+.grid-flow-col {
     grid-auto-flow: column;
     gap: 16px;
 }
+
+.grid-col3 {
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 24px;
+}
+
 
 .tag {
     border: 1px solid var(--gray-300);
@@ -25,4 +30,35 @@
 
 header .arrow {
     margin-top: 94px;
+    margin-bottom: 57px;
 }
+
+.card2 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: var(--gray-300);
+    border-radius: 12px;
+    width: 330px;
+    height: 280px;
+    gap: 20px;
+    padding: 12px;
+    h3{
+        color: var(--gray-600);
+        font: var(--title-sm);
+        margin-bottom: 8px;
+    }
+    p{
+        font: var(--text-sm);
+        color: var(--gray-500);
+    }
+    img{
+        border-radius: 8px;
+        width: 306px;
+        height: 156px;
+    }
+}
+.card2:hover {
+    transform: scale(1.05); 
+    cursor: pointer;
+}
+

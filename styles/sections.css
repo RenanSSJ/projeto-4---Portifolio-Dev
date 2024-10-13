@@ -1,4 +1,4 @@
-.introduction {
+#introduction {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -43,14 +43,24 @@
     }
 }
 
-
-
-
-
-
 #projects {
     height: 917px;
     background-color: var(--gray-200);
+
+    header {
+        text-align: center;
+        margin-block: 72px 0px 56px;
+
+    }
+    h2 {
+        margin-top: 8px;
+        margin-bottom: 56px;
+        font: var(--title-md);
+        color: var(--gray-600);
+   }
+   .projects {
+        justify-content: center;
+   }
 }
 
 #services {
@@ -68,7 +78,5 @@
 }
 
 span.mark-red {
-
     color: var(--red);
-
 }
