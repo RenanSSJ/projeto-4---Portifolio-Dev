@@ -1,7 +1,10 @@
 
 #introduction {
-    display: grid;
+    display: flex;
+    flex-direction: column;
+    position: relative;
     justify-content: center;
+    align-items: center;
     height: 750px;
     background: url(../assets/Background_Intro.png);
     background-size: cover;
@@ -10,17 +13,44 @@
     ul {
         list-style: none;
     }
+    .user-pic {
+        margin-bottom: 56px;
+    }
+    h2 {
+        margin-bottom: 8px;
+        font: var(--subtitle);
+    }
+    h1 {
+        margin-bottom: 20px;
+        font: var(--title-lg);
+        color: var(--gray-600);
+    }
+    span {
+        color: var(--gray-500);
+    }
+    p {
+        margin-bottom: 80px;
+        font: var(--text-sm);
+        color: var(--gray-400);
+    }
+    ul {
+        font: var(--text-md);
+        
+    .red {
+        color: var(--red) ;
+    }
+    
 }
 
 
 #projects {
     height: 917px;
-    background-color: brown;
+    background-color:var(--gray-200);
 }
 
 #services {
     height: 480px;
-    background-color: blue;
+    background-color:var(--gray-100);
 }
 
 #contact {
