@@ -33,7 +33,7 @@
     span.mark-red {
         color: var(--red);
     }
-    
+
     p {
         margin-bottom: 80px;
         font: var(--text-sm);
@@ -70,12 +70,16 @@
 }
 
 #services {
+    display: block;
+    max-height: 480px;
     height: 480px;
     background-color: var(--gray-100);
     padding: 0 120px 120px 120px;
-
+    
     main {
+        justify-content: center;
         max-width: 888px;
+        max-height: 480px;
     }
 
     figure {
@@ -113,13 +117,66 @@
 
 #contact {
     height: 787px;
-    background-color: blueviolet;
     background: url(../assets/Background_Contacts.png);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    padding-top: 128px;
+
+    h3 {
+        font: var(--subtitle);
+        color: var(--purple);
+        text-align: center;
+        margin-bottom: 8px;
+    }
+
+    h2 {
+        font: var(--title-md);
+        color: var(--gray-600);
+        text-align: center;
+        margin-bottom: 8px;
+    }
+    
+    p {
+        font: var(--text-md);
+        color: var(--gray-500);
+        margin-bottom: 48px;
+        text-align: center;
+    }
+
+    figure {
+        display: flex;
+        font: var(--text-md);
+        color: var(--gray-500);
+        background-color: var(--gray-300);
+        border: 1px solid var(--gray-300);
+        justify-content: space-between;
+        align-items: center;
+        border-radius: 8px;
+        width: 400px;
+        height: 68px;
+        margin-bottom: 16px;
+    }
+    figure:hover { 
+        transform: scale(1.05);
+        cursor: pointer;
+
+    }
 }
 
-span.mark-red {
-    color: var(--red);
+figure div {
+    display: flex;
+    gap: 8px;
+    padding: 23px;
+}
+
+
+.redes-sociais {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.arrowup {
+    margin-right: 24px;
 }

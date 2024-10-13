@@ -65,3 +65,7 @@ header .arrow {
     transform: scale(1.05);
     cursor: pointer;
 }
+
+span.mark-red {
+    color: var(--red);
+}
