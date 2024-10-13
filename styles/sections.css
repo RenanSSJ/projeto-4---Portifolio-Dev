@@ -1,5 +1,4 @@
-
-#introduction {
+.introduction {
     display: flex;
     flex-direction: column;
     position: relative;
@@ -9,48 +8,54 @@
     background: url(../assets/Background_Intro.png);
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center; 
-    ul {
-        list-style: none;
-    }
+    background-position: center;
+
     .user-pic {
         margin-bottom: 56px;
     }
+
     h2 {
         margin-bottom: 8px;
         font: var(--subtitle);
     }
+
     h1 {
         margin-bottom: 20px;
         font: var(--title-lg);
         color: var(--gray-600);
     }
+
+
     span {
         color: var(--gray-500);
     }
+
+
     p {
         margin-bottom: 80px;
         font: var(--text-sm);
         color: var(--gray-400);
     }
+
     ul {
         font: var(--text-md);
-        
-    .red {
-        color: var(--red) ;
+        list-style: none;
     }
-    
 }
+
+
+
+
 
 
 #projects {
     height: 917px;
-    background-color:var(--gray-200);
+    background-color: var(--gray-200);
 }
 
 #services {
     height: 480px;
-    background-color:var(--gray-100);
+    background-color: var(--gray-100);
 }
 
 #contact {
@@ -60,4 +65,10 @@
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+}
+
+span.mark-red {
+
+    color: var(--red);
+
 }
