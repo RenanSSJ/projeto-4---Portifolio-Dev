@@ -42,23 +42,26 @@ header .arrow {
     height: 280px;
     gap: 20px;
     padding: 12px;
-    h3{
+
+    h3 {
         color: var(--gray-600);
         font: var(--title-sm);
         margin-bottom: 8px;
     }
-    p{
+
+    p {
         font: var(--text-sm);
         color: var(--gray-500);
     }
-    img{
+
+    img {
         border-radius: 8px;
         width: 306px;
         height: 156px;
     }
 }
+
 .card2:hover {
-    transform: scale(1.05); 
+    transform: scale(1.05);
     cursor: pointer;
 }
-

@@ -30,7 +30,10 @@
         color: var(--gray-500);
     }
 
-
+    span.mark-red {
+        color: var(--red);
+    }
+    
     p {
         margin-bottom: 80px;
         font: var(--text-sm);
@@ -52,20 +55,60 @@
         margin-block: 72px 0px 56px;
 
     }
+
     h2 {
         margin-top: 8px;
         margin-bottom: 56px;
         font: var(--title-md);
         color: var(--gray-600);
-   }
-   .projects {
+    }
+
+    .projects {
         justify-content: center;
-   }
+
+    }
 }
 
 #services {
     height: 480px;
     background-color: var(--gray-100);
+    padding: 0 120px 120px 120px;
+
+    main {
+        max-width: 888px;
+    }
+
+    figure {
+        border: 2px solid var(--gray-300);
+        border-radius: 12px;
+        width: 280px;
+        height: 155px;
+        padding-top: 20px;
+        padding-left: 20px;
+
+        h3 {
+            color: var(--gray-500);
+            font: var(--title-sm);
+            margin-top: 20px;
+            margin-bottom: 8px;
+        }
+
+        p {
+            color: var(--gray-400);
+            font: var(--text-sm);
+        }
+    }
+
+    header {
+        text-align: center;
+        padding-top: 88px;
+
+        h2 {
+            font: var(--title-md);
+            color: var(--gray-500);
+            margin-block: 8px 56px;
+        }
+    }
 }
 
 #contact {
